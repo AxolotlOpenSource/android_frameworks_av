@@ -137,7 +137,7 @@ cc_library_shared {
     ],
 
     product_variables: {
-        xperience: {
+        axolotl: {
             has_legacy_camera_hal1: {
                 cflags: ["-DNO_CAMERA_SERVER"],
             },
