@@ -76,7 +76,7 @@
 #include "utils/TagMonitor.h"
 #include "utils/CameraThreadState.h"
 
-#include <vendor/xperience/camera/motor/1.0/ICameraMotor.h>
+#include <vendor/axolotl/camera/motor/1.0/ICameraMotor.h>
 
 namespace {
     const char* kPermissionServiceName = "permission";
@@ -93,7 +93,7 @@ using hardware::ICameraServiceProxy;
 using hardware::ICameraServiceListener;
 using hardware::camera::common::V1_0::CameraDeviceStatus;
 using hardware::camera::common::V1_0::TorchModeStatus;
-using vendor::xperience::camera::motor::V1_0::ICameraMotor;
+using vendor::axolotl::camera::motor::V1_0::ICameraMotor;
 
 // ----------------------------------------------------------------------------
 // Logging support -- this is for debugging only
